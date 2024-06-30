@@ -72,3 +72,15 @@ console.log(arr1.concat(arr2)); //[ 8, 6, [ 55, 22, 555 ], 5, 'Thila', 'Thilan',
 
 arr1[1] = 88;
 console.log(arr1);
+
+arr1.unshift("22222"); //add values start of the arrray
+console.log(arr1);
+
+arr1.push(false); //add values end of the array
+console.log(arr1);
+
+arr1.shift(); //we can remove first element of the array
+console.log(arr1);
+
+arr1.pop(); //we can remove last element
+console.log(arr1);
