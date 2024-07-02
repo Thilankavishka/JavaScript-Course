@@ -55,7 +55,7 @@ console.log(Number(h)); //NaN
 console.log(Number(i)); //0
 
 //parseInt
-console.log(typeof parseInt(g)); //numebr
+console.log(typeof parseInt(g)); //number
 
 let j = 25.45;
 console.log(Number(j)); //25.45
