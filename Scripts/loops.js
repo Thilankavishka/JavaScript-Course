@@ -32,3 +32,24 @@ do {
   console.log(w);
   w++;
 } while (w <= 10);
+
+/*  Get student marks and provide pass of fail acording their marks
+let stdMarks = [];
+
+for (let i = 0; i < 5; i++) {
+  stdMarks.push(prompt(`Enter Student ${i + 1} Marks`));
+}
+
+console.log(stdMarks);
+
+for (let i = 0; i < 5; i++) {
+  let mark1 = stdMarks[i];
+  if (100 > mark1 && mark1 > 0) {
+    if (mark1 > 40) {
+      console.log(`Student ${i + 1} is Pass`);
+    } else {
+      console.log(`Student ${i + 1} is Fail`);
+    }
+  }
+}
+*/
