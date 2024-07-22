@@ -4,7 +4,7 @@
 
 setTimeout(call, 100);
 */
-
+/*
 const names = ["thila", "kasun", "pasan"];
 
 const myforeach = (arr, cb) => {
@@ -15,4 +15,14 @@ const myforeach = (arr, cb) => {
 };
 myforeach(names, (name) => {
   console.log(name);
-});
+});*/
+
+let a = function () {
+  console.log("standard function");
+};
+
+let b = () => {
+  console.log("arrow function");
+};
+a();
+b();
